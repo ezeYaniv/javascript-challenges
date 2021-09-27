@@ -18,15 +18,3 @@ function asyncInSequence() {
 }
 
 asyncInSequence();
-
-// function oneAfterTheOther() {
-//     setTimeout(() => {
-//         console.log('im number 1 in the other, 2000')
-//     }, 2000)
-
-//     setTimeout(() => {
-//         console.log('im number 2 in the other, 500')
-//     }, 500)
-// }
-
-// oneAfterTheOther()

@@ -11,10 +11,12 @@ function getData() {
 
 	req.addEventListener("load", () => {
     const response = req.response;
-    console.log(response);
+    return response;
   })
   req.open('GET', url);
 	req.send();
 }
 
-getData();
+getData()
+
+export { getData };
