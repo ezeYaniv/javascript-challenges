@@ -8,7 +8,7 @@ Write a code to make xmlHTTPRequest to get data from the server asynchronously
 function getData() {
   const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
   const req = new XMLHttpRequest();
-
+  console.log('testing prettier');
   req.addEventListener('load', () => {
     const response = req.response;
     return response;
