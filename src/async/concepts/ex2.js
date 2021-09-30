@@ -6,17 +6,17 @@ Write a code to make xmlHTTPRequest to get data from the server asynchronously
 */
 
 function getData() {
-	const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
-	const req = new XMLHttpRequest();
+  const url = 'https://pokeapi.co/api/v2/pokemon/ditto';
+  const req = new XMLHttpRequest();
 
-	req.addEventListener("load", () => {
+  req.addEventListener('load', () => {
     const response = req.response;
     return response;
-  })
+  });
   req.open('GET', url);
-	req.send();
+  req.send();
 }
 
-getData()
+getData();
 
 export { getData };
